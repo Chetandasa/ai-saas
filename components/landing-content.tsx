@@ -4,35 +4,36 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Chetan",
+    name: "Store",
     avatar: "J",
-    title: "Software Engineer",
-    description: "This is the best application I've ever used!",
+    title: "E-Commerce Website",
+    description: "https://ecommerce-store-ruby.vercel.app",
+    
   },
   {
-    name: "Chetan",
+    name: "Flexibble",
     avatar: "A",
-    title: "Designer",
-    description: "I use this daily for generating new photos!",
+    title: "Hiring website",
+    description: "https://grafbase-flexible.vercel.app",
   },
   {
-    name: "Mark",
+    name: "AI-Promptopia",
     avatar: "M",
-    title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
+    title: "AI-Prompt",
+    description: "https://ai-promptopiaweb.vercel.app",
   },
   {
-    name: "Mary",
+    name: "AI-Summarize",
     avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    title: "AI-Sumz",
+    description: "https://summz-ai.netlify.app",
   },
 ];
 
 export const LandingContent = () => {
   return (
     <div className="px-10 pb-20">
-      <h2 className="text-center text-4xl text-white font-extrabold mb-10">Testimonials</h2>
+      <h2 className="text-center text-4xl text-white font-extrabold mb-10">Here are My Latest Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
           <Card key={item.description} className="bg-[#192339] border-none text-white">
