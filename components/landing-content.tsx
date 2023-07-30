@@ -5,14 +5,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const testimonials = [
   {
     name: "Store",
-    avatar: "J",
+    avatar: "A",
     title: "E-Commerce Website",
     description: "https://ecommerce-store-ruby.vercel.app",
     
   },
   {
     name: "Flexibble",
-    avatar: "A",
+    avatar: "B",
     title: "Hiring website",
     description: "https://grafbase-flexible.vercel.app",
   },
