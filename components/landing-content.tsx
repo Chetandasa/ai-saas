@@ -18,13 +18,13 @@ const testimonials = [
   },
   {
     name: "AI-Promptopia",
-    avatar: "M",
+    avatar: "C",
     title: "AI-Prompt",
     description: "https://ai-promptopiaweb.vercel.app",
   },
   {
     name: "AI-Summarize",
-    avatar: "M",
+    avatar: "D",
     title: "AI-Sumz",
     description: "https://summz-ai.netlify.app",
   },
